@@ -1,7 +1,9 @@
 <template>
-    <div>
-        <button style="width: 100px; height 20px; background-color: grey">
-            <slot />
+    <div class="test-button">
+        <button class="test-button__button">
+            <p class="test-button__text">
+                <slot />
+            </p>
         </button>
     </div>
 </template>
@@ -10,3 +12,14 @@
 		name: 'TestButton',
 	};
 </script>
+<style lang="less" scoped>
+    .test-button {
+        &__button {
+            padding: 6px 12px;
+        }
+        &__text {
+            font-size: 14px;
+            color: black;
+        }
+    }
+</style>

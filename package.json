@@ -1,11 +1,15 @@
 {
   "private": true,
   "scripts": {
-    "dev": "nuxi dev",
-    "build": "nuxi build",
+    "dev": "nuxt dev",
+    "build": "nuxt build",
     "start": "node .output/server/index.mjs"
   },
+  "dependencies": {
+    "axios": "^0.25.0"
+  },
   "devDependencies": {
-    "nuxt3": "latest"
+    "nuxt3": "latest",
+    "less": "^4.1.2"
   }
 }

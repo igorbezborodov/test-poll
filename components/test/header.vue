@@ -1,9 +1,7 @@
 <template>
     <div>
         <test-button>
-            <template>
-                Войти
-            </template>
+            Войти
         </test-button>
     </div>
 </template>
